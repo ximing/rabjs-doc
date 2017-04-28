@@ -1,4 +1,4 @@
 # Rabjs是什么
 
-rabjs封装了react，redux，react-redux，react-router，react-router-redux
+rabjs是一套封装了react，redux，react-redux，react-router，react-router-redux
 

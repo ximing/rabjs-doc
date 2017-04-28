@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [api](chapter1.md)
+* [API](chapter1.md)
 

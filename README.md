@@ -1,2 +1,4 @@
-Rabjs是什么
+# Rabjs是什么
+
+rabjs封装了
 

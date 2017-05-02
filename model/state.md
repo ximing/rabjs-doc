@@ -1,2 +1,4 @@
-model中的state 就是是传统redux应用中每个reducer对应的 state，没有赋予什么特殊含义
+model中的state 就是是传统redux架构中每个reducer对应的 state，在rabjs中没有赋予什么特殊含义。
+
+不过rabjs建议按照领域模型进行model拆分，每个model只负责和自己业务相关的state，action，reducer等。
 

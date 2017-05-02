@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [Model](model.md)
-  * [state](chapter1/state.md)
-  * [actions](chapter1/actions.md)
-  * [reducers](chapter1/reducer.md)
+  * [state](model/state.md)
+  * [actions](model/actions.md)
+  * [reducers](model/reducer.md)
   * [subscriptions](chapter1/subscriptions.md)
 

@@ -9,10 +9,13 @@ export default createModel({
     state:{
         todos:[]
     },
-    reduers:{}，
-    actions:{},
     reduers:{
         
+    }，
+    actions:{
+    },
+    reduers:{
+
     },
     subscriptions:{
         init({history, dispatch}){

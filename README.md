@@ -4,5 +4,11 @@ rabjs是一套封装了react，redux，react-redux，react-router，react-router
 
 # 快速开始
 
+ 1，通过waka创建rabjs项目
+
+```
+waka init rabjs-webpack first-app
+```
+
 
 

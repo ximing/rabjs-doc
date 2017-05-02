@@ -19,7 +19,7 @@ reducers 是唯一可以修改state的部分
 
 每个reducer函数会接收两个参数，第一个参数 state 是当前model的state对象，第二个参数 action是[flux-standard-action](https://github.com/acdlite/flux-standard-action) ，
 
-正常情况
+正常情况的payload
 
 ```js
 {
@@ -30,7 +30,7 @@ reducers 是唯一可以修改state的部分
 }
 ```
 
-异常情况
+异常情况的payload
 
 ```
 {

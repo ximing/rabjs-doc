@@ -1,2 +1,2 @@
-subscriptions可以做push相关的数据流
+subscriptions可以做针对当前model的history，websocket，service worker等相关的操作，
 

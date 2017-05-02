@@ -11,6 +11,9 @@ subscriptions可以做针对当前model的history，websocket，service worker�
             history.listen((location) => {
                 console.log('init------------>',location)
             })
+        },
+        test({history, dispatch}){
+            websocket.on('create',function(){})
         }
     }
     ...

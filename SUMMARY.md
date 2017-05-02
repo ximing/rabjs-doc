@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Model](chapter1.md)
+* [Model](model.md)
   * [state](chapter1/state.md)
   * [actions](chapter1/actions.md)
   * [reducers](chapter1/reducer.md)

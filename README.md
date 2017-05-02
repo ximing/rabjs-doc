@@ -2,7 +2,7 @@
 
 rabjs是一套封装了react，redux，react-redux，react-router，react-router-redux的前端框架，提供简单的api，创建复杂的SPA应用。
 
-# install
+# Install
 
 方案1，通过waka创建rabjs项目
 
@@ -16,7 +16,7 @@ waka init rabjs-webpack first-app
 npm install --save rabjs
 ```
 
-## quick start
+## Quick Start
 
 ```js
 import React from 'react';

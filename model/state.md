@@ -1,2 +1,0 @@
-model中的state 就是是传统redux应用中每个reducer对应的 state，没有赋予什么特殊含义
-

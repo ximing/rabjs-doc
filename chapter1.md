@@ -11,12 +11,17 @@ export default createModel({
     },
     reduers:{}，
     actions:{},
-    reduers:{},
+    reduers:{
+        
+    },
     subscriptions:{
         init({history, dispatch}){
             history.listen((location) => {
                 console.log('init------------>',location)
             })
+        },
+        test({history, dispatch}){
+            websocket.on('create',function(){})
         }
     }
 })

@@ -5,5 +5,5 @@
   * [state](model/state.md)
   * [actions](model/actions.md)
   * [reducers](model/reducer.md)
-  * [subscriptions](chapter1/subscriptions.md)
+  * [subscriptions](model/subscriptions.md)
 

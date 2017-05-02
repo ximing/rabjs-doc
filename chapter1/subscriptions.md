@@ -2,7 +2,7 @@ subscriptions可以做针对当前model的history，websocket，service worker�
 
 #### 1，基础语法
 
-```
+```js
 {
     namespace:'test',
     ...

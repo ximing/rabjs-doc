@@ -4,6 +4,7 @@ subscriptions可以做针对当前model的history，websocket，service worker�
 
 ```
 {
+    namespace:'test',
     ...
     subscriptions:{
         init({history, dispatch}){
@@ -14,8 +15,6 @@ subscriptions可以做针对当前model的history，websocket，service worker�
     }
     ...
 }
-
-
 ```
 
 

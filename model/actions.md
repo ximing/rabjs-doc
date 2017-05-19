@@ -8,9 +8,9 @@ actions是model中处理业务逻辑的地方，本质就是一个async的functi
         async hello(args){
 
         },
-        //3.2.0 以上支持 异步中间件
+        //3.2.0 以上支持 高阶异步中间件，可以透传
         hi:(args)=>async ({getState,dispatch,put,call})=>{
-            
+
         }
     }
     ...

@@ -7,6 +7,7 @@ rabjs是一套封装了react，redux，react-redux，react-router，react-router
 方案1，通过waka创建rabjs项目
 
 ```
+npm i -g waka-cli
 waka init rabjs-webpack first-app
 ```
 

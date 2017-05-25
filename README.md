@@ -63,7 +63,7 @@ let count = createModel({
         }
     },
     actions:{
-        //高阶异步action 可以获取全局的stata，
+        //高阶异步action 可以获取全局的stata，put
         asyncAdd: (a, b, c) => async ({getState, dispatch,call}) => {
             console.log('----->', getState(), dispatch)
             await stop();

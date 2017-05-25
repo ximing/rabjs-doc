@@ -18,6 +18,8 @@ npm install --save rabjs
 
 ## Quick Start
 
+五步创建react，redux应用
+
 ```js
 import React from 'react';
 import rab, { connect,createModel, put, call} from 'rabjs';
@@ -61,10 +63,13 @@ let count = createModel({
         }
     },
     actions:{
-        async asyncAdd() {
+        //高阶异步action 可以获取全局的stata，
+        asyncAdd: (a, b, c) => async ({getState, dispatch,call}) => {
+            console.log('----->', getState(), dispatch)
             await stop();
             return 100;
         },
+        //正常异步action
         async asyncMinus() {
             await stop();
             return -100;

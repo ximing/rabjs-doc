@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [simple-mode](simple-mode.md)
 * [Model](chapter1.md)
   * [state](chapter1/state.md)
   * [actions](chapter1/actions.md)
